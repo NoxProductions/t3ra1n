@@ -2,7 +2,7 @@
 
 **palera1n from rooted Android. No PC. No Mac. No Linux box.**
 
-t3ra1n is a Termux-native wrapper for [palera1n](https://github.com/palera1n/palera1n) that runs the full checkm8 jailbreak chain directly from a rooted Android phone. It handles USB HAL coexistence, kernel authorization lockdown, and process lifecycle — so you just pick an option and plug in your iPhone.
+t3ra1n is a Termux-native wrapper for [palera1n](https://github.com/palera1n/palera1n) that runs the full checkm8 jailbreak chain directly from a rooted Android phone. It handles USB HAL coexistence, kernel authorization lockdown, and process lifecycle, so you just pick an option and plug in your iPhone.
 
 This is a **beta**. It works. It has bugs. It has only been tested on one device configuration. Read the whole README before you start.
 
@@ -174,7 +174,7 @@ t3ra1n.py  (Termux menu + lifecycle)
 
 ## Relationship to s3ra1n
 
-t3ra1n is the Android-native branch of [s3ra1n](https://github.com/NoxProductions/3ra1n). s3ra1n was the original proof of concept that ran palera1n on a Samsung Galaxy S3 running postmarketOS — real Linux, no Android HAL to fight. t3ra1n solves the harder version of the same problem: running the same exploit from inside Android, where the USB stack actively works against you.
+t3ra1n is the Android-native branch of [s3ra1n](https://github.com/NoxProductions/s3ra1n). s3ra1n was the original proof of concept that ran palera1n on a Samsung Galaxy S3 running postmarketOS — real Linux, no Android HAL to fight. t3ra1n solves the harder version of the same problem: running the same exploit from inside Android, where the USB stack actively works against you.
 
 Both tools live in the same repository. s3ra1n targets postmarketOS and Linux. t3ra1n targets rooted Android with Termux.
 
