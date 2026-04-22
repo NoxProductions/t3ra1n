@@ -88,7 +88,7 @@ python3 ~/storage/downloads/t3ra1n.py
 ```
         .:'
     __ :'__
- .'`__`-'__``.    t3ra1n  v1.0 Beta
+ .'`__`-'__``.    t3ra1n  v1.0 BETA
 :__________.-'    An experimental Ra1n Project
 :_________:       github.com/NoxProductions/s3ra1n
  :_________`-;    Requires: Magisk + s3ra1n-usb module
