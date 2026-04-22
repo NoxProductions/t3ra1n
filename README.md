@@ -176,7 +176,7 @@ t3ra1n.py  (Termux menu + lifecycle)
 
 t3ra1n is the Android-native branch of [s3ra1n](https://github.com/NoxProductions/s3ra1n). s3ra1n was the original proof of concept that ran palera1n on a Samsung Galaxy S3 running postmarketOS — real Linux, no Android HAL to fight. t3ra1n solves the harder version of the same problem: running the same exploit from inside Android, where the USB stack actively works against you.
 
-Both tools live in the same repository. s3ra1n targets postmarketOS and Linux. t3ra1n targets rooted Android with Termux.
+Both tools live in different repositories. s3ra1n targets postmarketOS and Linux. t3ra1n targets rooted Android with Termux.
 
 -----
 
