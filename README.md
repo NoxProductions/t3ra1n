@@ -71,7 +71,7 @@ Or download it manually and place it in your Downloads or Documents folder. t3ra
 **4. Download t3ra1n**
 
 ```bash
-curl -L https://github.com/NoxProductions/s3ra1n/releases/latest/download/t3ra1n.py \
+curl -L https://github.com/NoxProductions/t3ra1n/releases/latest/download/t3ra1n.py \
   -o ~/storage/downloads/t3ra1n.py
 ```
 
