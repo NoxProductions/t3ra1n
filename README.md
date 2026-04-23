@@ -186,6 +186,12 @@ If you get t3ra1n working on a device not listed in the tested section, open an 
 
 If it doesn’t work, `python3 t3ra1n.py --diag` with your iPhone plugged in gives a full USB state dump. Include that in your issue.
 
+## Support the Project
+If t3ra1n helped you jailbreak your device without a PC, consider buying me a coffee!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/NoxProductions)
+
+
 -----
 
 ## Credits
