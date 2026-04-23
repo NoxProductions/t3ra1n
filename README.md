@@ -1,3 +1,8 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/NoxProductions/t3ra1n?style=flat&color=yellow)
+![GitHub all releases](https://img.shields.io/github/downloads/NoxProductions/t3ra1n/total?style=flat&color=brightgreen)
+![GitHub](https://img.shields.io/github/license/NoxProductions/t3ra1n?style=flat&color=blue)
+
+
 # t3ra1n
 
 **palera1n from rooted Android. No PC. No Mac. No Linux box.**
