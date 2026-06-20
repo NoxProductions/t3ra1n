@@ -12,7 +12,7 @@ This is a **beta**. It works. It has bugs. It has only been tested on one device
 
 ## How it works
 
-Android’s USB stack actively interferes with palera1n’s libusb — the HAL reclaims the device during checkm8’s reconnect window, breaking the exploit. t3ra1n solves this with a Magisk module (`s3ra1n-usb`) that:
+Android’s USB stack actively interferes with palera1n’s libusb, the HAL reclaims the device during checkm8’s reconnect window, breaking the exploit. t3ra1n solves this with a Magisk module (`s3ra1n-usb`) that:
 
 - Stops USB HAL services before palera1n runs
 - Forces DWC3 controller to host mode
@@ -125,7 +125,7 @@ These are not suggestions. Ignoring them will waste your time.
 t3ra1n needs to lock down the USB stack before the iPhone connects. If the iPhone is already plugged in when the script starts, Android will have already claimed it and the jailbreak will fail. Wait until Phase 5 prompts you.
 
 **Do not unplug the OTG cable while palera1n is running.**
-Unplugging mid-exploit puts palera1n into a kernel D-state — it becomes unkillable even with `kill -9`, even as root. The only recovery is a full Android reboot. Wait until t3ra1n’s Phase 7 completes and says “USB state restored” before removing the cable.
+Unplugging mid-exploit puts palera1n into a kernel D-state, it becomes unkillable even with `kill -9`, even as root. The only recovery is a full Android reboot. Wait until t3ra1n’s Phase 7 completes and says “USB state restored” before removing the cable.
 
 **Do not close Termux during Phase 7.**
 Phase 7 restores Android’s USB stack. It takes up to 2 minutes. If you kill Termux during this phase, your USB stack will be in a partially-locked state until you reboot.
@@ -176,7 +176,7 @@ t3ra1n.py  (Termux menu + lifecycle)
 
 ## Relationship to s3ra1n
 
-t3ra1n is the Android-native branch of [s3ra1n](https://github.com/NoxProductions/s3ra1n). s3ra1n was the original proof of concept that ran palera1n on a Samsung Galaxy S3 running postmarketOS — real Linux, no Android HAL to fight. t3ra1n solves the harder version of the same problem: running the same exploit from inside Android, where the USB stack actively works against you.
+t3ra1n is the Android-native branch of [s3ra1n](https://github.com/NoxProductions/s3ra1n). s3ra1n was the original proof of concept that ran palera1n on a Samsung Galaxy S3 running postmarketOS, real Linux, no Android HAL to fight. t3ra1n solves the harder version of the same problem: running the same exploit from inside Android, where the USB stack actively works against you.
 
 Both tools live in different repositories. s3ra1n targets postmarketOS and Linux. t3ra1n targets rooted Android with Termux.
 
@@ -206,8 +206,8 @@ If t3ra1n helped you jailbreak your device without a PC, consider buying me a co
 
 ## Disclaimer
 
-This tool is for educational and research purposes. Use it on devices you own. The authors take no responsibility for bricked devices, data loss, or warranty voids. checkm8 is a hardware vulnerability — it cannot be patched by Apple on affected devices, but that doesn’t mean it’s risk-free to exploit.
+This tool is for educational and research purposes. Use it on devices you own. The authors take no responsibility for bricked devices, data loss, or warranty voids. checkm8 is a hardware vulnerability, it cannot be patched by Apple on affected devices, but that doesn’t mean it’s risk-free to exploit.
 
 -----
 
-*Part of the s3ra1n project — hardware that has no business doing this in 2026.*
+*Part of the s3ra1n project, hardware that has no business doing this in 2026.*
