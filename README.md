@@ -25,16 +25,16 @@ The result: checkm8 hits reliably, the full jailbreak chain completes, and your 
 
 ## Tested on
 
-|Component    |Details                          |
-|-------------|---------------------------------|
-|Host device  |Sony Xperia XZ (Kagura, F8331)   |
-|SoC          |Qualcomm Snapdragon 820 (MSM8996)|
-|Android      |AOSP 13 GSI                      |
-|Root         |Magisk                           |
-|Target iPhone|iPhone X (A11, iOS 16.7.10)      |
-|palera1n     |v2.2.1 linux-arm64               |
+| Host Device | Codename | SoC | OS | Root | palera1n | Status |
+|-------------|----------|-----|----|------|----------|--------|
+| Sony Xperia XZ (F8331) | Kagura | Snapdragon 820 (MSM8996) | LineageOS 20 (Android 13) | Magisk | v2.2.1 linux-arm64 | ✅ Working |
+| Google Pixel 4a | Sunfish | Snapdragon 730G (SM7150-AB) | Evolution X (Android 16) | Magisk | v2.3 linux-arm64 | ✅ Working |
+| HTC 10 | Pme | Snapdragon 820 (MSM8996) | LineageOS 19.1 (Android 12) | Magisk | v2.3 linux-arm64 | ✅ Working |
 
-**This is the only configuration t3ra1n has been confirmed working on.** Other Qualcomm devices with DWC3 USB controllers will likely work (Pixel 3/4, OnePlus 6/7, Xperia XZ1/XZ Premium, various Xiaomi/Redmi), but there are no guarantees. Samsung devices with the Exynos USB stack or different HAL service names may need adjustments.
+**Target device tested:** iPhone X (A11, iOS 16.7.10)
+
+Other Qualcomm devices with DWC3 USB controllers will likely work (Pixel 3/4, OnePlus 6/7, Xperia XZ1/XZ Premium, various Xiaomi/Redmi), but there are no guarantees. Samsung devices with the Exynos USB stack or different HAL service names may need adjustments.
+
 
 -----
 
