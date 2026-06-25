@@ -6,7 +6,7 @@
 
 t3ra1n is a Termux-native wrapper for [palera1n](https://github.com/palera1n/palera1n) that runs the full checkm8 jailbreak chain directly from a rooted Android phone. It handles USB HAL coexistence, kernel authorization lockdown, and process lifecycle, so you just pick an option and plug in your iPhone.
 
-This is a **beta**. It works. It has bugs. It has only been tested on one device configuration. Read the whole README before you start.
+This is a **beta**. It works. It has bugs. It has only been tested on a few devices. Read the whole README before you start.
 
 -----
 
