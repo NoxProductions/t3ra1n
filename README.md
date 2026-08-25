@@ -198,15 +198,15 @@ If t3ra1n helped you jailbreak your device without a PC, consider buying me a co
 
 ## Credits
 
-- [palera1n team](https://github.com/palera1n/palera1n) — the actual jailbreak
-- [checkra1n team](https://checkra.in) — checkm8
+- [palera1n team](https://github.com/palera1n/palera1n), the actual jailbreak
+- [checkra1n team](https://checkra.in), checkm8
 - Built by [Noxbit](https://github.com/NoxProductions)
 
 -----
 
 ## Disclaimer
 
-This tool is for educational and research purposes. Use it on devices you own. The authors take no responsibility for bricked devices, data loss, or warranty voids. checkm8 is a hardware vulnerability, it cannot be patched by Apple on affected devices, but that doesn’t mean it’s risk-free to exploit.
+This tool is for educational and research purposes. Use it on devices you own. The authors take no responsibility for bricked devices, data loss, or warranty voids. checkm8 is a hardware vulnerability, it cannot be patched by Apple on affected devices, but that doesn’t mean it’s risk free to exploit.
 
 -----
 
