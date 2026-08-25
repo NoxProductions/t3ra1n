@@ -2,7 +2,7 @@
 
 ![Stars](https://img.shields.io/github/stars/NoxProductions/t3ra1n?style=flat&color=yellow) ![Downloads](https://img.shields.io/github/downloads/NoxProductions/t3ra1n/total?style=flat&color=brightgreen) ![License](https://img.shields.io/github/license/NoxProductions/t3ra1n?style=flat&color=blue)
 
-**palera1n from rooted Android. No PC. No Mac. No Linux box.**
+**palera1n from a rooted Android. No PC**
 
 t3ra1n is a Termux-native wrapper for [palera1n](https://github.com/palera1n/palera1n) that runs the full checkm8 jailbreak chain directly from a rooted Android phone. It handles USB HAL coexistence, kernel authorization lockdown, and process lifecycle, so you just pick an option and plug in your iPhone.
 
@@ -210,4 +210,4 @@ This tool is for educational and research purposes. Use it on devices you own. T
 
 -----
 
-*Part of the s3ra1n project, hardware that has no business doing this in 2026.*
+*Part of the s3ra1n project*
