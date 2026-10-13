@@ -176,3 +176,4 @@ If it doesn’t work, `python3 t3ra1n.py --diag` with your iPhone plugged in giv
 This tool is for educational and research purposes. Use it on devices you own. The authors take no responsibility for bricked devices, data loss, or warranty voids. 
 
 
+
